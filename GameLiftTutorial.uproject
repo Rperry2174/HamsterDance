@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{F0920A5D-45FC-50FA-662E-75979A126CDC}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GameLiftTutorial",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameLiftClientSDK",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e2bba49570904db3aa0e1a79060d49a4"
+		},
+		{
+			"Name": "GameLiftServerSDK",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/6cdb4c60327e4ee8b02546aa5be3f057"
+		}
+	]
+}
